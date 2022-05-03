@@ -35,5 +35,3 @@ elif choice == 'e':
 
 else:
     print("Invalid option")
-
-
