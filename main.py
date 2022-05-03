@@ -3,9 +3,9 @@ from random import randint
 
 csv = read_csv('resources/thousand_most_popular_spanish_words.csv', sep=',', encoding='utf-8').to_dict()
 
-print("Do you want to write Spanish or English words?\ns - Spanish\ne - English")
+print("Do you want to write Spanish or English words?\nS - Spanish\nS - English")
 
-choice = input("Enter your choice: ")
+choice = input("Enter your choice: ").lower()
 
 if choice == 's':
     while True:
