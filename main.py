@@ -12,3 +12,5 @@ while True:
         print("Correct!")
     else:
         print("Wrong! The answer is:", csv["in English"][random_index])
+
+    print("-----------------------------------")
